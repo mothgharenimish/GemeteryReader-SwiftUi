@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		06FDD42D2D799D3C003EB7FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06FDD4142D799D39003EB7FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06FDD41B2D799D39003EB7FC;
+			remoteInfo = "GemeteryReader-SwiftUi";
+		};
+		06FDD4372D799D3C003EB7FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06FDD4142D799D39003EB7FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06FDD41B2D799D39003EB7FC;
+			remoteInfo = "GemeteryReader-SwiftUi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06FDD41C2D799D39003EB7FC /* GemeteryReader-SwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GemeteryReader-SwiftUi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06FDD42C2D799D3C003EB7FC /* GemeteryReader-SwiftUiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GemeteryReader-SwiftUiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06FDD4362D799D3C003EB7FC /* GemeteryReader-SwiftUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GemeteryReader-SwiftUiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		06FDD41E2D799D39003EB7FC /* GemeteryReader-SwiftUi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GemeteryReader-SwiftUi";
+			sourceTree = "<group>";
+		};
+		06FDD42F2D799D3C003EB7FC /* GemeteryReader-SwiftUiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GemeteryReader-SwiftUiTests";
+			sourceTree = "<group>";
+		};
+		06FDD4392D799D3C003EB7FC /* GemeteryReader-SwiftUiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GemeteryReader-SwiftUiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06FDD4192D799D39003EB7FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FDD4292D799D3C003EB7FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FDD4332D799D3C003EB7FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06FDD4132D799D39003EB7FC = {
+			isa = PBXGroup;
+			children = (
+				06FDD41E2D799D39003EB7FC /* GemeteryReader-SwiftUi */,
+				06FDD42F2D799D3C003EB7FC /* GemeteryReader-SwiftUiTests */,
+				06FDD4392D799D3C003EB7FC /* GemeteryReader-SwiftUiUITests */,
+				06FDD41D2D799D39003EB7FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06FDD41D2D799D39003EB7FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06FDD41C2D799D39003EB7FC /* GemeteryReader-SwiftUi.app */,
+				06FDD42C2D799D3C003EB7FC /* GemeteryReader-SwiftUiTests.xctest */,
+				06FDD4362D799D3C003EB7FC /* GemeteryReader-SwiftUiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06FDD41B2D799D39003EB7FC /* GemeteryReader-SwiftUi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06FDD4402D799D3C003EB7FC /* Build configuration list for PBXNativeTarget "GemeteryReader-SwiftUi" */;
+			buildPhases = (
+				06FDD4182D799D39003EB7FC /* Sources */,
+				06FDD4192D799D39003EB7FC /* Frameworks */,
+				06FDD41A2D799D39003EB7FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				06FDD41E2D799D39003EB7FC /* GemeteryReader-SwiftUi */,
+			);
+			name = "GemeteryReader-SwiftUi";
+			packageProductDependencies = (
+			);
+			productName = "GemeteryReader-SwiftUi";
+			productReference = 06FDD41C2D799D39003EB7FC /* GemeteryReader-SwiftUi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06FDD42B2D799D3C003EB7FC /* GemeteryReader-SwiftUiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06FDD4432D799D3C003EB7FC /* Build configuration list for PBXNativeTarget "GemeteryReader-SwiftUiTests" */;
+			buildPhases = (
+				06FDD4282D799D3C003EB7FC /* Sources */,
+				06FDD4292D799D3C003EB7FC /* Frameworks */,
+				06FDD42A2D799D3C003EB7FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06FDD42E2D799D3C003EB7FC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				06FDD42F2D799D3C003EB7FC /* GemeteryReader-SwiftUiTests */,
+			);
+			name = "GemeteryReader-SwiftUiTests";
+			packageProductDependencies = (
+			);
+			productName = "GemeteryReader-SwiftUiTests";
+			productReference = 06FDD42C2D799D3C003EB7FC /* GemeteryReader-SwiftUiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06FDD4352D799D3C003EB7FC /* GemeteryReader-SwiftUiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06FDD4462D799D3C003EB7FC /* Build configuration list for PBXNativeTarget "GemeteryReader-SwiftUiUITests" */;
+			buildPhases = (
+				06FDD4322D799D3C003EB7FC /* Sources */,
+				06FDD4332D799D3C003EB7FC /* Frameworks */,
+				06FDD4342D799D3C003EB7FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06FDD4382D799D3C003EB7FC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				06FDD4392D799D3C003EB7FC /* GemeteryReader-SwiftUiUITests */,
+			);
+			name = "GemeteryReader-SwiftUiUITests";
+			packageProductDependencies = (
+			);
+			productName = "GemeteryReader-SwiftUiUITests";
+			productReference = 06FDD4362D799D3C003EB7FC /* GemeteryReader-SwiftUiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06FDD4142D799D39003EB7FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					06FDD41B2D799D39003EB7FC = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					06FDD42B2D799D3C003EB7FC = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 06FDD41B2D799D39003EB7FC;
+					};
+					06FDD4352D799D3C003EB7FC = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 06FDD41B2D799D39003EB7FC;
+					};
+				};
+			};
+			buildConfigurationList = 06FDD4172D799D39003EB7FC /* Build configuration list for PBXProject "GemeteryReader-SwiftUi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06FDD4132D799D39003EB7FC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 06FDD41D2D799D39003EB7FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06FDD41B2D799D39003EB7FC /* GemeteryReader-SwiftUi */,
+				06FDD42B2D799D3C003EB7FC /* GemeteryReader-SwiftUiTests */,
+				06FDD4352D799D3C003EB7FC /* GemeteryReader-SwiftUiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06FDD41A2D799D39003EB7FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FDD42A2D799D3C003EB7FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FDD4342D799D3C003EB7FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06FDD4182D799D39003EB7FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FDD4282D799D3C003EB7FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FDD4322D799D3C003EB7FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06FDD42E2D799D3C003EB7FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06FDD41B2D799D39003EB7FC /* GemeteryReader-SwiftUi */;
+			targetProxy = 06FDD42D2D799D3C003EB7FC /* PBXContainerItemProxy */;
+		};
+		06FDD4382D799D3C003EB7FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06FDD41B2D799D39003EB7FC /* GemeteryReader-SwiftUi */;
+			targetProxy = 06FDD4372D799D3C003EB7FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06FDD43E2D799D3C003EB7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06FDD43F2D799D3C003EB7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06FDD4412D799D3C003EB7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GemeteryReader-SwiftUi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.GemeteryReader-SwiftUi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06FDD4422D799D3C003EB7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GemeteryReader-SwiftUi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.GemeteryReader-SwiftUi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06FDD4442D799D3C003EB7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.GemeteryReader-SwiftUiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GemeteryReader-SwiftUi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GemeteryReader-SwiftUi";
+			};
+			name = Debug;
+		};
+		06FDD4452D799D3C003EB7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.GemeteryReader-SwiftUiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GemeteryReader-SwiftUi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GemeteryReader-SwiftUi";
+			};
+			name = Release;
+		};
+		06FDD4472D799D3C003EB7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.GemeteryReader-SwiftUiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GemeteryReader-SwiftUi";
+			};
+			name = Debug;
+		};
+		06FDD4482D799D3C003EB7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.GemeteryReader-SwiftUiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GemeteryReader-SwiftUi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06FDD4172D799D39003EB7FC /* Build configuration list for PBXProject "GemeteryReader-SwiftUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FDD43E2D799D3C003EB7FC /* Debug */,
+				06FDD43F2D799D3C003EB7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06FDD4402D799D3C003EB7FC /* Build configuration list for PBXNativeTarget "GemeteryReader-SwiftUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FDD4412D799D3C003EB7FC /* Debug */,
+				06FDD4422D799D3C003EB7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06FDD4432D799D3C003EB7FC /* Build configuration list for PBXNativeTarget "GemeteryReader-SwiftUiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FDD4442D799D3C003EB7FC /* Debug */,
+				06FDD4452D799D3C003EB7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06FDD4462D799D3C003EB7FC /* Build configuration list for PBXNativeTarget "GemeteryReader-SwiftUiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FDD4472D799D3C003EB7FC /* Debug */,
+				06FDD4482D799D3C003EB7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06FDD4142D799D39003EB7FC /* Project object */;
+}
